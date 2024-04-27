@@ -2,7 +2,7 @@
 set_camera_light:
   target:
     entity:
-      integration: netatmo
+      integration: netatmo-homecontrol
       domain: light
   fields:
     camera_light_mode:
@@ -17,7 +17,7 @@ set_camera_light:
 set_schedule:
   target:
     entity:
-      integration: netatmo
+      integration: netatmo-homecontrol
       domain: climate
   fields:
     schedule_name:
@@ -29,7 +29,7 @@ set_schedule:
 set_preset_mode_with_end_datetime:
   target:
     entity:
-      integration: netatmo
+      integration: netatmo-homecontrol
       domain: climate
   fields:
     preset_mode:
@@ -49,7 +49,7 @@ set_preset_mode_with_end_datetime:
 set_temperature_with_end_datetime:
   target:
     entity:
-      integration: netatmo
+      integration: netatmo-homecontrol
       domain: climate
   fields:
     target_temperature:
@@ -69,7 +69,7 @@ set_temperature_with_end_datetime:
 set_temperature_with_time_period:
   target:
     entity:
-      integration: netatmo
+      integration: netatmo-homecontrol
       domain: climate
   fields:
     target_temperature:
@@ -93,13 +93,13 @@ set_temperature_with_time_period:
 clear_temperature_setting:
   target:
     entity:
-      integration: netatmo
+      integration: netatmo-homecontrol
       domain: climate
 
 set_persons_home:
   target:
     entity:
-      integration: netatmo
+      integration: netatmo-homecontrol
       domain: camera
   fields:
     persons:
@@ -111,7 +111,7 @@ set_persons_home:
 set_person_away:
   target:
     entity:
-      integration: netatmo
+      integration: netatmo-homecontrol
       domain: camera
   fields:
     person:
