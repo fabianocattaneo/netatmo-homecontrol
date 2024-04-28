@@ -4,8 +4,8 @@ from homeassistant.const import Platform
 
 API = "api"
 
-DOMAIN = "netatmo-homecontrol"
-MANUFACTURER = "Netatmo Home+Control"
+DOMAIN = "netatmo"
+MANUFACTURER = "Netatmo"
 DEFAULT_ATTRIBUTION = f"Data provided by {MANUFACTURER}"
 
 PLATFORMS = [
